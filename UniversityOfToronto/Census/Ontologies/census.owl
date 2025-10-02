@@ -28,7 +28,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
-        <Literal xml:lang="en">An ontology for representing data from the Canadian Census</Literal>
+        <Literal xml:lang="en">An ontology for representing census data</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:issued"/>
@@ -36,7 +36,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
-        <Literal xml:lang="en">Canadian Census Ontology</Literal>
+        <Literal xml:lang="en">Census Ontology</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Cardinality_unit"/>
@@ -35986,6 +35986,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="owl:qualifiedCardinality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.eil.utoronto.ca/5087/2/LandUse/EmployedPopulation"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://ontology.eil.utoronto.ca/5087/2/LandUse/EmployedPopulation"/>
@@ -83952,7 +83955,7 @@ A Characteristic has the following properties:
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:qualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147483897"/>
+        <AnonymousIndividual nodeID="_:genid2147483994"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</Literal>
     </AnnotationAssertion>
 </Ontology>
