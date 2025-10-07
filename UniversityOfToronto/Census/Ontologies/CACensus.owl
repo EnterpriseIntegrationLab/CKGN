@@ -18,6 +18,7 @@
     <Prefix name="time" IRI="http://www.w3.org/2006/time#"/>
     <Import>http://ontology.eil.utoronto.ca/5087/2/City.owl</Import>
     <Import>http://ontology.eil.utoronto.ca/ISO21972/iso21972.owl</Import>
+    <Import>http://ontology.eil.utoronto.ca/tove/census.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="ns:license"/>
         <Literal xml:lang="en">http://creativecommons.org/licenses/by/3.0/</Literal>

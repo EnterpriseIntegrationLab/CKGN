@@ -39,6 +39,9 @@
         <Literal xml:lang="en">Census Ontology</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="http://ontology.eil.utoronto.ca/5087/2/LandUse/EmployedPopulation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://ontology.eil.utoronto.ca/ISO21972/iso21972#Cardinality_unit"/>
     </Declaration>
     <Declaration>
@@ -35986,9 +35989,6 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="owl:qualifiedCardinality"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://ontology.eil.utoronto.ca/5087/2/LandUse/EmployedPopulation"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://ontology.eil.utoronto.ca/5087/2/LandUse/EmployedPopulation"/>
